@@ -26,9 +26,9 @@ try :
     for i in range(10):
         motor.ChangeDutyCycle(2.5)
         time.sleep(0.5)
-        motor.ChangeDutyCycle(5.0)
+        motor.ChangeDutyCycle(6.0)
         time.sleep(0.5)
-        motor.ChangeDutyCycle(10.0)
+        motor.ChangeDutyCycle(9.0)
         time.sleep(0.5)
         motor.ChangeDutyCycle(12.0)
         time.sleep(0.5)
